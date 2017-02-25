@@ -143,7 +143,7 @@ $(document).ready(function() {
    atime.setMinutes(0);
    atime.setSeconds(0,0);
    var atime_s = atime.getTime() / 1000;
-   var div = '<iframe id="cvmapif-'+curr+'" width="500" height="500" frameborder="0" style="border:1px solid black; z-index: 100; background-color: white; display: none;" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDBZjErcijrftD_SmsmkHxsksmHH30VysE&origin=ch42+5pr&destination='+loc+'&mode=transit&units=imperial" allowfullscreen></iframe>';
+   var div = '<iframe id="cvmapif-'+curr+'" width="500" height="500" frameborder="0" style="border:1px solid black; z-index: 100; background-color: white; display: none;" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDSwxqqCVmvfKojs5q8OF2DoNm9ke0eSJY&origin=ch42&destination='+loc+'&mode=transit&units=imperial" allowfullscreen></iframe>';
    $('body').append(div);
    var span = $('<span class="cvmap-js" title="cvmapif-'+curr+'">map</span>');
    window.console && console.log('yes 5');
